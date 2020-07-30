@@ -1,0 +1,13 @@
+*{
+   padding:0;
+   margin:0;
+}
+body{
+	background: red;
+}
+header #image{
+	background-image: url('Image/advertise3.png');
+	width: 200px;
+   height: 200px;
+	
+}

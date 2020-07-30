@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	    *{
+	    	padding: 0;
+	    	margin: 0;
+	    }
+		.gridParent{
+			width: 80%;
+			margin: 0 auto;
+			display: grid;
+			/*grid-template-columns: repeat(auto-fit,200px);*/
+			grid-template-rows: 300px 100px;
+			grid-template-columns: 1fr 1fr;
+			grid-auto-rows: 200px;
+		    grid-gap: 1.5em;
+		    background: gray;
+		}
+      ul li{
+      	list-style: none;
+         background: red;
+      }
+	</style>
+</head>
+<body>
+	<ul class="gridParent">
+	  		<li>One</li>
+	  		<li>Two</li>
+	  		<li>Three</li>
+	  		<li>Four</li>
+	  		<li>Five</li>
+	  		<li>Six</li>
+	  		<li>Seven</li>
+	  		<li>Eight</li>
+	  		<li>Nine</li>
+  	</ul>
+</body>
+</html>

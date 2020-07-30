@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.wrapper{
+			text-align: center;
+			width: 70%;
+			margin:0 auto;
+			background: #ddd;
+		}
+		ul{
+			list-style: none;
+		}
+	</style>
+</head>
+<body>
+  <div class="wrapper">
+  	<h1>Welcome to my DOM Lesson</h1>
+  	<p id="changeValue">This is my first DOM Lesson </p>
+  	<input type="text" name="" id="text">
+    <input type="submit" name="" value="Change Text" onclick="ChangeContent();">
+    <ul>
+    	<li>Apple</li>
+    	<li>Orange</li>
+    	<li>Banana</li>
+    	<li>Strawberry</li>
+    </ul>
+  </div>
+  <script type="text/javascript">
+  	
+  	var textChange =document.getElementsByTagName('li');
+  	  for (var i = 0; i <= textChange.length; i++) {
+  	  	   textChange[i].style.color="red";
+  	  }
+
+    function ChangeContent(){
+    	var change = document.getElementById('text').value;
+        var changeText = document.getElementById('changeValue');
+         changeText.textContent=change;
+    }
+   
+  </script>
+</body>
+</html>

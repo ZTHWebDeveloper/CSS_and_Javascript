@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	body{
+		background: #eee;
+	}
+		form{
+			padding-top: 50px;
+			margin:0 auto;
+			width: 50%;
+			box-sizing: border-box;
+			height: 300px;
+			
+			
+
+		}
+
+		.input1{
+			width: 60%;
+			padding:10px;
+			margin-left: 150px;
+			border-radius: 5px;
+			transition: 3s;
+		}
+		.input1:focus{
+			 border:2px solid gray;
+			 
+
+		}
+		.input2{
+			width: 60%;
+			padding:10px;
+			margin-left: 120px;
+			border-radius: 5px;
+			transition: 3s;
+		}
+		.input2:focus{
+			 border:2px solid gray;
+			
+		}
+		#div2{
+           margin-top: 20px;
+		}
+		#div3{
+           margin-top: 10px;
+		}
+		#right{
+			margin-left: 185px;
+		}
+		#div4{
+			margin-top:10px;
+		}
+		.check{
+			margin-left: 145px;
+		}
+		.submit{
+			margin-top: 10px;
+		}
+		.radio[type="radio"]:checked + label{
+			font-weight: bold;
+		}
+		.check[type="checkbox"]:checked + label{
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<div id="div1">
+			<label for="email">Email</label>
+		    <input type="email" name="email" id="email" placeholder="Email" class="input1">
+		</div>
+
+		<div id="div2">
+			<label for="password">Password</label>
+		   <input type="password" name="" id="password" placeholder="Password" class="input2">
+		</div>
+
+		<div id="div3">
+			<label for="first">Radio</label>
+			<div id="right">
+				<input type="radio" name="radio" id="first" class="radio"><label for="first">First radio</label><br>
+				<input type="radio" name="radio" id="second" class="radio"><label for="second">Second radio</label><br>
+				<input type="radio" name="radio" id="third" class="radio"><label for="third">Third disabled radio</label>
+			</div>
+		</div>
+
+		<div id="div4">
+			<label for="">Check</label>
+		    <input type="checkbox" name="example" id="example" class="check"><label for="example">Example checkbox</label>
+		</div>
+		
+		<input type="submit" name="submit" value="Sing in" style="padding:10px 15px;border-radius: 10px;background: blue;" class="submit">
+
+
+	</form>
+</body>
+</html>

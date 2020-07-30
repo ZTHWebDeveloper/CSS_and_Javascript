@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<input type="number" name="" id="random">
+<input type="submit" name="" value="Random" onclick="random();">
+<script type="text/javascript">
+	function random(){
+		var random = document.getElementById("random").value;
+		
+         var changeInt=parseInt(random);
+         
+         var randomMethod=Math.floor(Math.random()*6)+1;
+
+         document.write(randomMethod);
+         if(random==randomMethod){
+           alert("It is  equal");
+         }else{
+         	alert("It is not equal");
+         }
+	}
+random();
+</script>
+</body>
+</html>

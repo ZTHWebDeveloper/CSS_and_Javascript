@@ -1,0 +1,53 @@
+@media(min-width: 1025px){
+   .header{
+   	 display: flex;
+   	 justify-content: space-between;
+   	 width: 80%;
+   	 margin:0 auto;
+   }
+    
+   ul{
+   	display: flex;
+   	justify-content: space-around;
+   }
+
+   .content{
+   	display: flex;
+    width: 80%;
+    margin:0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   }
+
+   .content .primary{
+   	padding:20px;
+   	background: #ddd;
+
+   }
+
+   .content .secondary{
+   	padding:20px;
+   	margin-left: 20px;
+   	background: #ddd;
+   
+   }
+
+	.content .secondary img{
+	    background-size: cover;
+	   width: 70%; 
+	}
+	.content .ternary{
+		padding:20px;
+	   	margin-left: 20px;
+	   	background: #ddd;
+	}
+	
+}
+
+@media(min-width: 769px){
+   ul{
+   	   display: flex;
+   	   padding-left: 210px;
+   }
+
+}

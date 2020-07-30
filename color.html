@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<input type="" name="" id="color">
+<h2 id="textcolor"> I am Student.</h2>
+<input type="submit" name="ChangeColor" onclick="Change();" value="ChangeColor">
+
+
+<script type="text/javascript">
+  function Change(){
+  	  
+     var color =document.getElementById('color').value;
+	 var textcolor=document.getElementById('textcolor');
+
+	textcolor.style.color=color;
+	
+   }
+	
+Change();
+</script>
+</body>
+</html>

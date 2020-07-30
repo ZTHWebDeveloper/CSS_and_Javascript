@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<input type="number" name="" id="num1"><br>
+<input type="number" name="" id="num2"><br>
+<input type="submit" name="" value="Between_Random" onclick="BetweenRandom();">
+
+<script type="text/javascript">
+
+
+	 function BetweenRandom(changeNumber1,changeNumber2){
+	 	 
+	 	 var number1=document.getElementById("num1").value;
+	    var number2=document.getElementById("num2").value;
+
+	    var changeNumber1=parseInt(number1);
+	    var changeNumber2=parseInt(number2);
+	    var random=Math.floor(Math.random()*(changeNumber2-changeNumber1))+changeNumber1;
+	    document.write(random + " is " + " between " + changeNumber1 + " and " + changeNumber2);
+	   
+	 } 
+	 BetweenRandom(changeNumber1,changeNumber2);
+
+</script>
+</body>
+</html>

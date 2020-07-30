@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	#wrapper{
+		margin:0 auto;
+		width:80%;
+		background: #eee;
+		padding:50px;
+	}
+	:root{
+		background: gray;
+	}
+	p{
+		text-align: justify;	
+	}
+	#over{
+		overflow: hidden;
+		max-width:100%;
+	}
+	#over #left{
+		float: left;
+		width: 30%;
+		padding: 2%;
+	}
+	#over #middle{
+		float: left;
+		width: 30%;
+		padding: 2%
+	}
+	#over #right{
+
+		float: left;
+		width: 30%;
+		padding:1%;
+		
+	}
+	.name{
+		margin-left: 75px;
+		padding:5px;
+		width:50%;
+	}
+	.email{
+		margin-left: 78px;
+		padding:5px;
+		width:50%;
+	}
+	.password{
+		margin-left: 50px;
+		padding:5px;
+		width:50%;
+	}
+	#input2{
+		margin-top: 20px;
+	}
+	#input3{
+		margin-top: 20px;
+	}
+	
+	#left:target{
+		background: gray;
+	}
+
+	#over #two:target{
+      background-color: red;
+	}
+	#right:target{
+		background: red;
+	}
+	a{
+			text-decoration: none;
+		}
+
+	</style>
+</head>
+<body>
+  <div id="wrapper">
+  	 <div>
+	 	<a href="#one">Section A</a>
+	    <a href="#two">Section B</a>
+	    <a href="#three">Section C</a>
+	 </div>
+	 <div id="over">
+	 	 <div id="one">
+		 	<h2>Section A</h2>
+		 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		 	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		 	</p>
+		 </div>
+		 <div id="two">
+		 	<h2>Section B</h2>
+		 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		 	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		 	</p>
+		 </div>
+		 <div id="three">
+		 	<h2>Section C</h2>
+		 	<form>
+		 		<div id="input1">
+		 			<label for="name">Name</label>
+		 		    <input type="text" name="name" placeholder="Name" class="name">
+		 		</div>
+		 		<div id="input2">
+		 			<label for="email">Email</label>
+		 		    <input type="email" name="email" id="email" placeholder="Email" class="email">
+		 		</div>
+		 		<div id="input3">
+		 			<label for="password">Password</label>
+		 		    <input type="password" name="password" placeholder="Password" class="password">
+		 		</div>
+		        
+		 	</form>
+		 </div>
+	 </div>
+  </div>
+</body>
+</html>

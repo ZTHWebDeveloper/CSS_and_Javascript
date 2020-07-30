@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		#wrapper{
+			width:70%;
+			margin:0 auto;
+			background: #eee;
+			padding: 30px;
+		}
+		h2::before{
+			content:" ";
+			background: red;
+			padding:15px;
+			width:30px;
+			height: 40px;
+			border-radius: 50%;
+		}
+		h2::after{
+			content:" ";
+			background: red;
+			padding:15px;
+			width:30px;
+			height: 40px;
+			border-radius: 50%;
+		}
+		#first::first-line{
+           font-weight: bold;
+           
+		}
+		#first::first-letter{
+           font-size: 3em;
+          color: #fff;
+           background: black;
+           border-radius: 5px;
+		}
+		#second::before{
+          content:"Picture";
+		}
+		#third::after{
+			content:"Download";	
+		}
+		#image{
+			content:url('advertise3.png');
+			
+		}
+		#second::before{
+			content:url('advertise3.png');
+	
+		}
+	</style>
+</head>
+<body>
+	<div id="wrapper">
+		<h2>My Gallery</h2>
+		<p id="first">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		</p>
+		<p id="second">Download</p>
+		<p id="third">Zip</p>
+		<div id="image">
+			
+		</div>
+	</div>
+</body>
+</html>
